@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my-webpage-Welcome</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- CSS only -->
@@ -21,44 +21,33 @@
     <ul class="l1" style="margin-top:-15px;">
         <li class="li1"><img id="pumaimg"  src="zemoso.png"></li>
     </ul>
-    
-    <h1 id="head1">Sign in to classroom</h1>
+    <p id="head1">Get ready to start with classroom</p>
+    <p id="con1">join the class room to explore 100+ technologies with assignments</p>
     <div class="x">
     <button type="button" style="background-color: white;" id="b1"><b style="font-weight: 900; font-family:Arial;">Sign in with Google </b></button>
     <img src="google.png" id="googleicon" />
     </div>
     </div>
-    <br>
-    <h5 id="h5" style="font-size: 12px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">OR USE EMAIL</h5>
+    <p id="h5" style="font-size: 12px;font-family:Arial;">OR</p>
  <div class="box">
     <form >
         <div class="form-group">
 
-        <label class="labels" style="font-size: 12px;" for="email">EMAIL</label>
+        <label class="labels" style="font-size: 12px;" for="email">WORK EMAIL</label>
         <br>
         <input class="inputs" class="form-control" type="text" id="Email" placeholder="  spr@gmail.com" required>
         </div>
         <br>
-        <div class="form-group pass-box">
-        <label class="labels" for="pass" style="font-size: 12px;">PASSWORD</label>
-        <div class="x">
-        <input class="inputs"  class="form-control" id="pass" type="password"  placeholder="  Password" required>
-        <i class="fa fa-eye-slash" style="font-size: 30px;" aria-hidden="true" id="eye"></i>
-        </div>
-        <input type="checkbox" name="remember me" id="c1" value="remeber"/>
-        <label id="lab" for="c1">Remember me </label>
-        <a class="link1" href="#">Forgot password</a>
-        <br>
-        <button onclick="validateform()" id="b3" class="btn btn-primary" ><p style="font-family: Arial;font-weight: 600;text-align: center;">Log me in</p></button>
+        
+        <button onclick="validateemailform()" id="b3" class="btn btn-primary" ><p style="font-family: Arial;font-weight: 600;text-align: center;">Sign up with email </p></button>
 
         </div>
     </form>
         <div class="d4">
-            <label id="l4" for="link2">Don't have an account ?</label>
-            <a id="link2" href="signup.html">Sign Up</a>
+            <p style="margin-top: 15px;opacity: 0.5;font-family: Arial;font-size: 14px;">By signing up, you agree to our <a style="color: gray;font-family: 600;"href="#">Terms of Service </a> and<a style="color: gray;opacity: 0.9;" href="#"> Privacy Policy</a></p>
         </div>
 
-<script src="validate.js"></script>
+<script src="validateemail.js"></script>
 
 </body>
 </html>
